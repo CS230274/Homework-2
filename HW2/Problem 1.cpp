@@ -14,7 +14,7 @@ int main(int argc, const char * argv[]) {
     
     cin>>number;
     
-    int result= (((number+40)/5)+(number-6))*10;
+    int result= (((number+40)/5)-6))*10;
     cout<< result <<endl;
     return 0;
 }
